@@ -1,0 +1,241 @@
+@media (max-width:1399px) {
+    .hero_img {
+        width: 85%;
+        margin-left:auto ;
+    }
+    .hero_content h1 {
+        font-size: 50px;
+    }
+    .visit_content {
+        width: 77%;
+    }
+}
+
+/********** 1399 e ********/
+
+@media (max-width:1199px) {
+    .business_single_box {
+        padding: 70px 20px;
+    }
+    .business_single_box h3 {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .business_single_box {
+        min-height: 545px;
+    }
+    .visit_content {
+        padding: 20px 0 20px 10px;
+    }
+    .visit_content h4 {
+        font-size: 25PX;
+    }
+    .client_items p {
+        padding: 0 70px;
+    }
+    .client_items::before {
+        right: 0;
+        bottom: 80px;
+    }
+    .client_items::after {
+        left: -10px;
+        top:-50px;
+    }
+}
+
+/********** 1199 e ********/
+
+@media (max-width:991px) {
+    .visit_content h4 {
+        font-size: 22PX;
+    }
+    .visit_content p {
+        font-size: 14px;
+    }
+    .hero_content {
+        text-align: center;
+        margin-top: 140px;
+    }
+    .hero_img {
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .height::before {
+        left: 50px;
+    }
+    .height::after {
+        left: 95%;
+    }
+    .create_img {
+        text-align: center;
+    }
+    .create::before {
+        display: none;
+    }
+    .section_header h1 {
+        font-size: 30px;
+    }
+    .create_item h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .client_items::before {
+        font-size: 60px;
+    }
+    .client_items::after {
+        font-size: 60px;
+    }
+    .pro_bg {
+        padding: 70px 30px 70px 30px;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px 20px 30px;
+    }
+    .btn_contact {
+        margin: auto;
+    }
+}
+
+/********** 991 e ********/
+
+@media (max-width:767px) {
+    .copy {
+        margin-top: 50px;
+    }
+    .footer_items {
+        margin-bottom: 30px;
+    }
+    .project_block {
+        text-align: center;
+    }
+    .pro_bg {
+        padding: 45px 30px 45px 30px;
+    }
+    .project_item {
+        text-align: center;
+    }
+    .project_item p {
+        margin-bottom: 25px;
+    }
+    .business_single_box {
+        margin-bottom: 25px;
+    }
+    .section_header h1 {
+        font-size: 30px;
+    }
+    .business_single_box {
+        min-height: auto;
+    }
+    .visit_items {
+        margin-bottom: 25px;
+    }
+    .choose_items {
+        margin-bottom: 25px;
+    }
+    .client_items::after {
+        left: 0;
+    }
+    .tips_items {
+        margin-bottom: 25px;
+    }
+    footer {
+        padding-top: 100px;
+    }
+}
+
+/********** 767 e ********/
+
+@media (max-width:575px) {
+    .business::before {
+        display: none;
+    }
+    .hero_content h1 {
+        font-size: 30px;
+    }
+    .btn_hero {
+        padding: 15px 40px;
+    }
+    .height::before {
+        left: 100px;
+    }
+    .height::after {
+        left: 85%;
+    }
+    .business::after {
+        display: none;
+    }
+    .create_img {
+        width: 80%;
+        margin: auto;
+    }
+    .business {
+        padding-bottom: 0;
+    }
+    .create::after {
+        display: none;
+    }
+    .create {
+        padding: 50px 0;
+    }
+    .visit_img img {
+        width: 100%;
+    }
+    .visit_content h4 {
+        font-size: 25PX;
+    }
+    .visit_content p {
+        font-size: 16px;
+    }
+    .visit_content {
+        padding: 10px 0 10px 25px;
+    }
+    .visit {
+        padding: 0;
+    }
+    .client_items p {
+        padding: 0 10px;
+    }
+    .client_items::before {
+        font-size: 40px;
+        bottom: 130px;
+    }
+    .client_items::after {
+        top: -60px;
+        font-size: 40px;
+    }
+    .client_items p {
+        font-size: 16px;
+    }
+    .tips {
+        padding: 0;
+    }
+    .drawer-items {
+        padding: 0;
+        padding-top: 50px;
+    }
+    .mobile {
+        padding: 20px;
+    }
+}
+
+/********** 575 e ********/
+
+@media (max-width:425px) {
+    .section_header h1 {
+        font-size: 25px;
+    }
+}
+
+/********** 425 e ********/
+
+@media (max-width:375px) {}
